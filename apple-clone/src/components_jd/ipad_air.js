@@ -1,16 +1,19 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive"
 
 class IpadAir extends React.Component {
+
   render() {
+
     return (
-      <section id="ipad_section" class="grid grid-cols-5 mx-auto bg-black text-white p-10 flex items-center">
+      <div id="ipad_section" class="grid grid-cols-5 mx-auto bg-black text-white px-20 py-10 flex items-center">
         <div id="section-content" class="text-center col-span-2 col-start">
-          <div class="font-bold p-3">
-            <p class="text-xs text-orange-500 font-normal">New</p>
-            <span class="text-6xl">iPad </span>
+          <div class="p-3 m-1">
+            <p class="text-xs text-orange-500 m-3">New</p>
+            <span class="text-6xl font-semibold">iPad </span>
             <span class="text-6xl text-purple-300">air</span>
-            <p class="text-2xl">가뿐하게. 색다르게.</p>
-            <p class="text-2xl">강력하게.</p>
+            <p class="text-xl font-bold mt-1">가뿐하게. 색다르게.</p>
+            <p class="text-xl font-bold">강력하게.</p>
           </div>
           <p class="p-2 text-lg">₩779,000부터</p>
           <div class="p-1">
@@ -19,15 +22,15 @@ class IpadAir extends React.Component {
             </button>
           </div>
           <div class="p-2">
-            <a href="#" class="text-blue-500">
-              더 알아보기 &gt
+            <a href="#" class="text-blue-400">
+              더 알아보기 >
              </a>
           </div>
         </div>
         <div id="section-image" class="col-span-3">
-          <img src="asset/image/ipad_air_main.png"></img>
+            <img src="asset/image/ipad_air_main.png"></img>
         </div>
-      </section>
+      </div>
     );
   }
 }
