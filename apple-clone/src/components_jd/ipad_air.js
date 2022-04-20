@@ -20,7 +20,7 @@ class IpadAir extends React.Component {
           </div>
           <div class="p-2">
             <a href="#" class="text-blue-500">
-              더 알아보기 &gt
+              더 알아보기 >
              </a>
           </div>
         </div>
