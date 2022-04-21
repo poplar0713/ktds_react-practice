@@ -13,10 +13,10 @@ function IpadAir() {
   });
 
   return (
-    <div>
+    <div class="pb-2">
       {(isPC || isTablet) && (
         <div
-          id="ipad_section"
+          id="ipad_air_section"
           class="grid grid-cols-5 mx-auto bg-black text-white px-20 py-10 flex items-center"
         >
           <div id="section-content" class="text-center col-span-2 col-start">
@@ -63,14 +63,14 @@ function IpadAir() {
       {isMobile && 
         <div
         id="ipad_section"
-        class="mx-auto bg-black text-white px-20 py-10 items-center">
+        class="grid grid-cols-1 mx-auto bg-black text-white px-10 py-5 items-center">
           <div class="p-2 m-1 text-center">
                 <p class="text-xs text-orange-500 m-3">New</p>
-                <span class="text-5xl font-semibold">iPad </span>
-                <span class="text-5xl text-purple-300">air</span>
-                <p class="text-lg font-bold mt-1">가뿐하게. 색다르게.</p>
-                <p class="text-lg font-bold">강력하게.</p>
-                <p class="p-2" alt="">
+                <span class="text-4xl font-semibold">iPad </span>
+                <span class="text-4xl text-purple-300">air</span>
+                <p class="font-bold mt-1">가뿐하게. 색다르게.</p>
+                <p class="font-bold">강력하게.</p>
+                <p class="p-1" alt="">
                   ₩779,000부터
                 </p>
                 <div class="p-1">
@@ -84,7 +84,7 @@ function IpadAir() {
               </a>
             </div>
           </div>
-          <div id="section-image">
+          <div id="section-image" class="place-self-center w-80">
             <img src="asset/image/ipad_air_main.png"></img>
           </div>
         </div>

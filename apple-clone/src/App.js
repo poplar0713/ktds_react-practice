@@ -1,10 +1,10 @@
 import './App.css';
-import IpadAir from './components_jd/ipad_air';
+import IpadComponent from './components_jd/IpadComponent';
 
 export default function App() {
   return (
     <div>
-      <IpadAir></IpadAir>
+      <IpadComponent></IpadComponent>
     </div>
   )
 }
