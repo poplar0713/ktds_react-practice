@@ -1,0 +1,13 @@
+.chapternav-item-airpods-2gen .chapternav-icon {
+  background-size: 32px 54px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/airpods/q/images/chapternav/airpods_2gen_light__ckwbqlgv1r9e_large.svg);
+  width: 32px;
+}
+
+.chapternav-icon {
+  background: bottom no-repeat;
+  display: block;
+  margin: 0 auto 7px;
+  height: 54px;
+}
