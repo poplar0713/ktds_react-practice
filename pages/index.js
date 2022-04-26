@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 import Iphonepro from '../component/iphonepro'
 
 export default function Home() {
@@ -8,10 +7,13 @@ export default function Home() {
     <><Head>
       <title>Apple site clone codging</title>
       <link rel="icon" href="/icon/applecon.png" />
+      <style lang="postcss"></style>
     </Head>
-    {/* <section className='flex w-full flex-1 flex-col items-center justify-center px-20 text-center'>
-      <Iphonepro></Iphonepro>
-    </section></> */}
-    <Iphonepro></Iphonepro></>
+
+    <section>
+      <a href='https://www.apple.com/kr/iphone-13-pro/'>
+        <Iphonepro></Iphonepro>
+      </a>
+    </section></>
   )
 }

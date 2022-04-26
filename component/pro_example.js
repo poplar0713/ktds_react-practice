@@ -2,7 +2,7 @@ import Pro_write from "./pro_write"
 
 export default function Pro_example() {
     return(
-        <div className="">
+        <div>
             <Pro_write></Pro_write>
         </div>
     )

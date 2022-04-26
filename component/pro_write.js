@@ -1,9 +1,9 @@
 export default function Pro_write() {
     return (
-        <div className="">
-            <div className="">iPhone13Pro</div>
-            <div className="">이게 바로 프로.</div>
-            <div className="">₩1,350,000부터(보상 판매* 미적용 가격)</div>
-        </div>
+        <section>
+            <h3 className="text-6xl font-medium">iPhone 13 Pro</h3>
+            <h2 className="text-2xl">이게 바로 프로.</h2>
+            <a onClick={(event) => {event.stopPropagation}}>구입하기 {'>'}</a>
+        </section>
     )
 }
