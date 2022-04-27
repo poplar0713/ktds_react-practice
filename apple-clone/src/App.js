@@ -1,5 +1,5 @@
 import './App.css';
-import AirpodComponent from './components_airpod/AirpodComponent';
+import AirpodComponent from './screens/Airpod';
 
 function App() {
   return (
