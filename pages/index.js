@@ -11,9 +11,7 @@ export default function Home() {
     </Head>
 
     <section>
-      <a href='https://www.apple.com/kr/iphone-13-pro/'>
-        <Iphonepro></Iphonepro>
-      </a>
+      <Iphonepro></Iphonepro>
     </section></>
   )
 }
