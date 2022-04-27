@@ -61,7 +61,7 @@ function IpadAir() {
           </div>
           <div id="section-image">
             {isPC && <img src="asset/image/hero/ipad_air__d794tkovmk02_large_2x.jpg" width={750}></img>}
-            {isTablet && <img src="asset/image/hero/ipad_air__d794tkovmk02_medium_2x.jpg" width={500}></img>}
+            {isTablet && <img src="asset/image/hero/ipad_air__d794tkovmk02_medium_2x.jpg" width={400}></img>}
           </div>
         </div>
       )}
