@@ -1,6 +1,7 @@
 import React from "react";
 import Ipad from "./Ipad";
 import IpadAir from "./IpadAir";
+import IpadMini from "./IpadMini";
 import IpadPro from "./IpadPro";
 
 function IpadComponent(){
@@ -9,6 +10,7 @@ function IpadComponent(){
             <IpadAir></IpadAir>
             <IpadPro></IpadPro>
             <Ipad></Ipad>
+            <IpadMini></IpadMini>
         </div>
         
     )

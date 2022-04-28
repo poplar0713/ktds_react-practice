@@ -13,7 +13,7 @@ function Ipad() {
   });
 
   return (
-    <div class="my-2 pb-2">
+    <div class="py-2">
       {(isPC || isTablet) && (
         <div
           id="ipad_air_section"
