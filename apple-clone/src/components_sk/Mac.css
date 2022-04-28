@@ -1,0 +1,204 @@
+.chapternav {
+    background: rgba(245,245,247,0.7);
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    height: 100px;
+    z-index: 9987;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+nav ul, nav ol {
+    margin: 0;
+    list-style: none;
+}
+
+
+.chapternav-item:first-child {
+    margin-left: 0;
+    padding-left: 4px;
+}
+
+.chapternav-item {
+    animation: chapternav-slidein 350ms backwards;
+}
+
+.chapternav-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -0.11765em;
+    padding: 0 20px;
+}
+
+.chapternav-items {
+    margin: 0 34px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.chapternav-link {
+    color: #1d1d1f;
+    display: block;
+    padding: 0;
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+}
+
+a:link, a:visited, .link:link, .link:visited {
+    text-decoration: none;
+}
+
+.chapternav-icon {
+    margin-bottom: 4px;
+}
+
+.chapternav-icon {
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+
+
+.chapternav-label {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin: 0;
+}
+
+.chapternav-new {
+    position: relative;
+}
+
+.chapternav-new {
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -.008em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #bf4800;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.chapternav-item-macbook-air .chapternav-icon {
+    width: 52px;
+    height: 54px;
+    background-size: 52px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/macbookair_light__f0o95rwae8ae_large.svg);
+}
+
+.chapternav-item-macbook-pro .chapternav-icon {
+    width: 84px;
+    height: 54px;
+    background-size: 84px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/macbook_pro_light__e791sjqzt32a_large.svg);
+}
+
+.chapternav-item-imac-24 .chapternav-icon {
+    width: 43px;
+    height: 54px;
+    background-size: 43px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/imac_24_light__colyztscbeeu_large.svg);
+}
+
+.chapternav-item-mac-mini .chapternav-icon {
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_mini_light__frtahmzmd4mm_large.svg);
+}
+
+.chapternav-item-mac-studio .chapternav-icon {
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_studio_light__ea3pb1auizu6_large.svg);
+}
+
+.chapternav-item-mac-pro .chapternav-icon {
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_pro_light__cj4dvg7thx5y_large.svg);
+}
+
+.chapternav-item-compare .chapternav-icon {
+    width: 45px;
+    height: 54px;
+    background-size: 45px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_compare_light__emml1umdv9m6_large.svg);
+}
+
+.chapternav-item-displays .chapternav-icon {
+    width: 72px;
+    height: 54px;
+    background-size: 72px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/displays_light__ewxqx5obdxci_large.svg);
+}
+
+.chapternav-item-accessories .chapternav-icon {
+    width: 33px;
+    height: 54px;
+    background-size: 33px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_accessories_light__cuds10wyptyu_large.svg);
+}
+
+.chapternav-item-macos .chapternav-icon {
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_os_light__d0zczt34scq6_large.svg);
+}
+
+.chapternav-item-shop .chapternav-icon {
+    width: 103px;
+    height: 54px;
+    background-size: 103px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_shop_light__layuggud1xe2_large.svg);
+}
+
+.visuallyhidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+@keyframes chapternav-slidein{
+    0%{opacity:0}
+    1%{transform:translateX(160px)}
+    100%{opacity:1;transform:translateX(0)}
+}
