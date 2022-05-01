@@ -1,6 +1,6 @@
-import GlobalNav from "./components_sk/ui/GlobalNav";
-import Nav from "./components_sk/ui/Nav";
-import Product from "./components_sk/ui/Product";
+import GlobalNav from "./components_sk/UI/GlobalNav";
+import Nav from "./components_sk/UI/Nav";
+import Product from "./components_sk/UI/Product";
 
 function App() {
   return (
